@@ -32,7 +32,7 @@ function validaArrays (array, numberr) {
             console.log(e.message);
 
         } else if (e instanceof TypeError) {
-            console.log('ReferenceError!');
+            console.log('TypeError!');
             console.log(e.message);
         } else if (e instanceof RangeError){
             console.log('RangeError!');
